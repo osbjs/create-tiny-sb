@@ -1,5 +1,5 @@
 # create-tiny-sb
-Bootstrap your osu storyboard with `tiny-osbjs`.
+Bootstrap your osu storyboard with `tiny-osbjs` with some prebuilt components.
 
 With npm:
 ```bash
