@@ -1,0 +1,17 @@
+{
+	"name": "nhanh-sb-starter-typescript",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "node-dev index.ts"
+	},
+	"dependencies": {
+		"@osbjs/tiny-osbjs": "^3.1.3"
+	},
+	"devDependencies": {
+		"@types/node": "^18.0.3",
+		"ts-node": "^10.8.1",
+		"typescript": "^4.7.4"
+	}
+}
