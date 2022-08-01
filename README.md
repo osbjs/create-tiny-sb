@@ -17,7 +17,7 @@ pnpm create tiny-sb
 ```
 Then follow the prompts!
 
-You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold your project with TypeScript template, run:
+You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold your project with the TypeScript template, run:
 ```bash
 # npm 6.x
 npm create tiny-sb my-storyboard --template ts
