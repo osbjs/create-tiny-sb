@@ -36,7 +36,8 @@ There are 2 template presets: `js` and `ts`
 You can use `.` for the project name to scaffold in the current directory.
 
 ## FAQ
-- Why does it say that `node-dev` is not recognized blah blah?
+- **Why does it say that `node-dev` is not recognized blah blah?**
+
 Install `node-dev` as global dependency. 
 ```bash
 npm i -g node-dev
@@ -50,13 +51,16 @@ or
 pnpm add -g node-dev
 ```
 
-- I want to use prebuilt components but it keeps yelling something not found!
+- **I want to use prebuilt components but it keeps yelling something not found!**
+
 Just install it lol.
 
-- Why don't you include them by default?
+- **Why don't you include them by default?**
+
 Because you may not want to use prebuilt components, so including them will just take away your precious disk space.
 
-- Something something canvas error.
+- **Something something canvas error.**
+
 Install [`node-gyp`](https://github.com/nodejs/node-gyp#installation).
 
 If you ran into any issues or need help, contact `Nanachi#1381` on discord.
