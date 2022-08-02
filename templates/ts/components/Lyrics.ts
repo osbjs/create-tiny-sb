@@ -47,7 +47,7 @@ export type LyricsOptions = {
 	 */
 	textColor?: Color
 	/**
-	 * If you are rendering each character, we will not render the space image
+	 * If you are rendering each character, we will not render the space character
 	 * but instead we will add a gap to the x coordinate calculation between each letter.
 	 */
 	spaceWidth?: number
