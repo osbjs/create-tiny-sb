@@ -1,6 +1,6 @@
 {
 	"name": "create-tiny-sb",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Bootstrap your osu storyboard with tiny-osbjs.",
 	"main": "index.js",
 	"keywords": [
@@ -22,7 +22,7 @@
 		"@osbjs/hitobjects-tiny-osbjs": "^1.3.0",
 		"@osbjs/spectrum-tiny-osbjs": "^1.4.0",
 		"@osbjs/tiny-osbjs": "^3.1.4",
-		"@osbjs/txtgen-tiny-osbjs": "^2.3.0",
+		"@osbjs/txtgen-tiny-osbjs": "^2.5.0",
 		"@types/node": "^18.6.3",
 		"subtitle": "^4.2.1"
 	}

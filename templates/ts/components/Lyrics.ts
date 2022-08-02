@@ -4,7 +4,7 @@ import {
 	createTxtGenContext,
 	ejectAllTextImages,
 	FontProps,
-	measureLineHeight,
+	maxLineHeight,
 	measureLineWidth,
 	useFont,
 	useTxtGenContext
@@ -117,7 +117,7 @@ export default function Lyrics(lyricsFilePath: string, osbFolderPath: string, op
 
 			// may have multiple lines
 			text.split('\n').forEach((line) => {
-				const lineHeight = measureLineHeight(line, (pr, cr) => Math.max(pr, cr)) * fontScale
+				const lineHeight = maxLineHeight(line) * fontScale
 				const lineWidth = measureLineWidth(line) * fontScale
 
 				let letterX = 320 - lineWidth / 2
