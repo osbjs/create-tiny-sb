@@ -22,7 +22,7 @@ import { beatmapFolder } from '../config'
  * @property {number} [opacity] Opacity.
  * @property {number} [y] Y coordinate of each sentence.
  * @property {import('@osbjs/tiny-osbjs').Color} [textColor] Text color.
- * @property {number} [spaceWidth] If you are rendering each character, we will not render the space image
+ * @property {number} [spaceWidth] If you are rendering each character, we will not render the space character
  * but instead we will add a gap to the x coordinate calculation between each letter.
  */
 
