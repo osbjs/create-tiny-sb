@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
-		"start": "node-dev index.js"
+		"start": "node-dev index.js --respawn --clear --notify=false"
 	},
 	"dependencies": {
 		"@osbjs/tiny-osbjs": "^3.1.3"
