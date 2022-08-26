@@ -2,7 +2,6 @@
 	"name": "create-tiny-sb-ts",
 	"private": true,
 	"version": "1.0.0",
-	"type": "module",
 	"scripts": {
 		"start": "tsx watch index.ts"
 	},

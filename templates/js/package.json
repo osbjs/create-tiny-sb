@@ -2,12 +2,13 @@
 	"name": "create-tiny-sb-js",
 	"private": true,
 	"version": "1.0.0",
-	"type": "module",
 	"scripts": {
-		"start": "tsx watch index.ts"
+		"start": "tsx watch index.js"
 	},
 	"dependencies": {
-		"@osbjs/tiny-osbjs": "^3.1.3",
+		"@osbjs/tiny-osbjs": "^3.1.3"
+	},
+	"devDependencies": {
 		"tsx": "^3.8.2"
 	}
 }
